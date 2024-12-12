@@ -9,6 +9,6 @@ app.use(cors({
 }));
 app.use('/', router);
 
-app.listen(5000, 'Prost Back', () => {
+app.listen(5000, () => {
     console.log('Server is working on localhost:5000');
 })
