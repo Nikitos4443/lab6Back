@@ -5,10 +5,10 @@ const router = require('./routes');
 
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:63342',
+    origin: 'https://github.com/Nikitos4443/lab6front',
 }));
 app.use('/', router);
 
-app.listen(5000, 'localhost', () => {
+app.listen(5000, 'Prost Back', () => {
     console.log('Server is working on localhost:5000');
 })
