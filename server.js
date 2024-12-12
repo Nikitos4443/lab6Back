@@ -5,7 +5,7 @@ const router = require('./routes');
 
 app.use(express.json());
 app.use(cors({
-    origin: 'https://lab6front-production.up.railway.app',
+    origin: 'https://lab6front.railway.internal',
 }));
 app.use('/', router);
 
